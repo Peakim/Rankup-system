@@ -1,0 +1,47 @@
+## When you get hold of the respect point, you can choose a command to disable it
+disable-command: "/ah"
+
+# Rankup Military Department #
+
+## Rank 1
+rankup1pd-point: 30
+rankup1pd-name: "sarbaz"
+rankup1pd-message: "&aYou rank-up to Police Officer!"
+rankup1pd-notenough-message: "&cShoma niaz be dashtan 30 Respect point dar inventory khod darid!"
+rankup1pd-command1: "lp user %PLAYER% parent removetemp sarbaz rp"
+rankup1pd-command2: "lp user %PLAYER% parent addtemp police 100d rp"
+## Rank 2
+rankup2pd-point: 75
+rankup2pd-name: "police"
+rankup2pd-message: "&aYou rank-up to National guard!"
+rankup2pd-notenough-message: "&cShoma niaz be dashtan 75 Respect point dar inventory khod darid!"
+rankup2pd-command1: "lp user %PLAYER% parent removetemp police rp"
+rankup2pd-command2: "lp user %PLAYER% parent addtemp national-guard 100d rp"
+## Rank 3
+rankup3pd-point: 120
+rankup3pd-name: "national-guard"
+rankup3pd-message: "&aYou rank-up to SWAT!"
+rankup3pd-notenough-message: "&cShoma niaz be dashtan 120 Respect point dar inventory khod darid!"
+rankup3pd-command1: "lp user %PLAYER% parent removetemp national-guard rp"
+rankup3pd-command2: "lp user %PLAYER% parent addtemp swat 100d rp"
+## Rank 4
+rankup4pd-point: 175
+rankup4pd-name: "swat"
+rankup4pd-message: "&aYou rank-up to FBI!"
+rankup4pd-notenough-message: "&cShoma niaz be dashtan 175 Respect point dar inventory khod darid!"
+rankup4pd-command1: "lp user %PLAYER% parent removetemp swat rp"
+rankup4pd-command2: "lp user %PLAYER% parent addtemp fbi 120d rp"
+## Rank 5
+rankup5pd-point: 250
+rankup5pd-name: "fbi"
+rankup5pd-message: "&aYou rank-up to Marshal!"
+rankup5pd-notenough-message: "&cShoma niaz be dashtan 250 Respect point dar inventory khod darid!"
+rankup5pd-command1: "lp user %PLAYER% parent removetemp fbi rp"
+rankup5pd-command2: "lp user %PLAYER% parent addtemp marshal 130d rp"
+## Rank 6
+rankup6pd-point: 400
+rankup6pd-name: "fbi"
+rankup6pd-message: "&aYou rank-up to Leader-Military!"
+rankup6pd-notenough-message: "&cShoma niaz be dashtan 400 Respect point dar inventory khod darid!"
+rankup6pd-command1: "lp user %PLAYER% parent removetemp marshal rp"
+rankup6pd-command2: "lp user %PLAYER% parent addtemp leader-military 130d rp"

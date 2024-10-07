@@ -1,0 +1,17 @@
+name: Rankup-system
+version: '${project.version}'
+main: org.peakimo.rankupsystem.Rankup_system
+api-version: '1.16'
+commands:
+  giverp:
+    description: Give points to player!
+    usage: </giverp player (Player ID)>.
+  rankup:
+    description: Rankup player!
+    usage: </rankup (Your Rank) (Pl)
+  removerp:
+    description: Remove respect point from player!
+    usage: </removerp player (Player ID)
+  rankup-reload:
+    description: reload config.yml
+    usage: </rankup-reload>
